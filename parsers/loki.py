@@ -125,6 +125,10 @@ class Item:
                         elif gem_key == 'effect':
                             gem.bonus_attribute = gem_val
                     self.stats.append(gem)
+
+                if len(self.stats) == 0:
+                    self.stats.append(Gem())
+
             self.item_to_zenkcraft_format()
 
     def __repr__(self):

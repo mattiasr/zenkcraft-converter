@@ -133,6 +133,8 @@ def parse(template_file):
                 gem.bonus_attribute = gem_stat['Effect']
                 gem.bonus_amount = gem_stat['Amount']
                 item.stats.append(gem)
+        if len(item.stats) == 0:
+            item.stats.append(Gem())
         item.item_to_zenkcraft_format()
         template_char.items.append(item)
 
