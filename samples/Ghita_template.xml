@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCTemplate>
+	<Name>Ghita</Name>
+	<Realm>Hibernia</Realm>
+	<Class>Mentalist</Class>
+	<Race>Lurikeen</Race>
+	<Level>50</Level>
+	<RealmRank>1L1</RealmRank>
+	<ChampionLevel>0</ChampionLevel>
+	<CraftTime>0</CraftTime>
+	<Notes></Notes>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Chest</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item1</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>1</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Intelligence</Effect>
+			<Amount>27</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Hits</Effect>
+			<Amount>56</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Stat</Type>
+			<Effect>Dexterity</Effect>
+			<Amount>15</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Skill</Type>
+			<Effect>All Magic Skills</Effect>
+			<Amount>3</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Chest</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item1</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>0</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Arms</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item2</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>2</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Constitution</Effect>
+			<Amount>22</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Cold</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Heat</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Body</Effect>
+			<Amount>3</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Arms</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item2</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>3</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Head</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item3</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>4</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Constitution</Effect>
+			<Amount>22</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Dexterity</Effect>
+			<Amount>25</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Heat</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Crush</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Head</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item3</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>5</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Legs</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item4</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>6</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Resist</Type>
+			<Effect>Slash</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Constitution</Effect>
+			<Amount>22</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Heat</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Stat</Type>
+			<Effect>Power</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Legs</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item4</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>7</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Hands</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item5</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>8</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Resist</Type>
+			<Effect>Energy</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Skill</Type>
+			<Effect>Light</Effect>
+			<Amount>3</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Stat</Type>
+			<Effect>Power</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Slash</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Hands</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item5</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>9</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Feet</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item6</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>10</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Dexterity</Effect>
+			<Amount>28</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Energy</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Stat</Type>
+			<Effect>Power</Effect>
+			<Amount>3</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Feet</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item6</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>11</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Right Hand</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item7</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>12</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Right Hand</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item7</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>13</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Left Hand</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item8</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Slash</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>14</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Left Hand</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item8</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>15</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>2 Handed</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Thrustbender dyrewood staff (av s2)</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Slash</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>17</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Constitution</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Hits</Effect>
+			<Amount>32</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Crush</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+		<SLOT Number="4">
+			<Type>Resist</Type>
+			<Effect>Thrust</Effect>
+			<Amount>6</Amount>
+		</SLOT>
+		<SLOT Number="5">
+			<Type>Skill</Type>
+			<Effect>All Magic Skills</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>2 Handed</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item9</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<TYPE>Slash</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>16</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Ranged</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item10</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>18</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Ranged</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item10</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>19</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Spare</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Crafted Item11</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>20</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Spare</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item11</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>21</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Neck</Location>
+		<Realm>Hibernia</Realm>
+		<ItemName>Paidrean Necklace</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Necklass</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>22</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Resist</Type>
+			<Effect>Crush</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Thrust</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Body</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Cloak</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Sturdy supreme cloak</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloak</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>23</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Hits</Effect>
+			<Amount>56</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Matter</Effect>
+			<Amount>8</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Thrust</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Skill</Type>
+			<Effect>All Magic Skills</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Jewel</Location>
+		<Realm>Hibernia</Realm>
+		<ItemName>Crushbender Supreme gem (3838 - 120g)</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Jewelry</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>24</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Resist</Type>
+			<Effect>Cold</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Crush</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Matter</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Stat</Type>
+			<Effect>Acuity</Effect>
+			<Amount>22</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Belt</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Bodybender supreme belt (4118 - 200g)</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Belt</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>25</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Constitution</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Hits</Effect>
+			<Amount>52</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Body</Effect>
+			<Amount>8</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Cold</Effect>
+			<Amount>6</Amount>
+		</SLOT>
+		<SLOT Number="4">
+			<Type>Resist</Type>
+			<Effect>Matter</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+		<SLOT Number="5">
+			<Type>Stat</Type>
+			<Effect>Acuity</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Left Ring</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Spiritbender supreme ring (4241 - 130g)</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Ring</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>26</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Power</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Body</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Slash</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>6</Amount>
+		</SLOT>
+		<SLOT Number="4">
+			<Type>Stat</Type>
+			<Effect>Acuity</Effect>
+			<Amount>13</Amount>
+		</SLOT>
+		<SLOT Number="5">
+			<Type>Skill</Type>
+			<Effect>All Magic Skills</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Right Ring</Location>
+		<Realm>Hibernia</Realm>
+		<ItemName>Insightful outstanding ring</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Ring</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>27</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Resist</Type>
+			<Effect>Cold</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Matter</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Slash</Effect>
+			<Amount>4</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="4">
+			<Type>Stat</Type>
+			<Effect>Acuity</Effect>
+			<Amount>13</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Left Wrist</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Thrustbender Supreme bracer</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Wrist</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>28</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Dexterity</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Power</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Heat</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Matter</Effect>
+			<Amount>1</Amount>
+		</SLOT>
+		<SLOT Number="4">
+			<Type>Resist</Type>
+			<Effect>Thrust</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+		<SLOT Number="5">
+			<Type>Stat</Type>
+			<Effect>Acuity</Effect>
+			<Amount>16</Amount>
+		</SLOT>
+		<SLOT Number="6">
+			<Type>Skill</Type>
+			<Effect>All Magic Skills</Effect>
+			<Amount>2</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Right Wrist</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Energybender supreme braccer</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Wrist</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>29</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Power</Effect>
+			<Amount>3</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Cold</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Energy</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Matter</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="4">
+			<Type>Resist</Type>
+			<Effect>Slash</Effect>
+			<Amount>6</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Mythical</Location>
+		<Realm>Albion</Realm>
+		<ItemName>Drop Item20</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>30</TemplateIndex>
+	</SCItem>
+	<Outfit Active="1" Name="Outfit1">
+		<OutfitItem Equipped="1" Index="28" Location="Left Wrist"/>
+
+		<OutfitItem Equipped="1" Index="10" Location="Feet"/>
+
+		<OutfitItem Equipped="1" Index="4" Location="Head"/>
+
+		<OutfitItem Equipped="1" Index="25" Location="Belt"/>
+
+		<OutfitItem Equipped="1" Index="22" Location="Neck"/>
+
+		<OutfitItem Equipped="0" Index="18" Location="Ranged"/>
+
+		<OutfitItem Equipped="1" Index="29" Location="Right Wrist"/>
+
+		<OutfitItem Equipped="1" Index="8" Location="Hands"/>
+
+		<OutfitItem Equipped="1" Index="24" Location="Jewel"/>
+
+		<OutfitItem Equipped="1" Index="2" Location="Arms"/>
+
+		<OutfitItem Equipped="1" Index="27" Location="Right Ring"/>
+
+		<OutfitItem Equipped="1" Index="23" Location="Cloak"/>
+
+		<OutfitItem Equipped="1" Index="1" Location="Chest"/>
+
+		<OutfitItem Equipped="1" Index="12" Location="Right Hand"/>
+
+		<OutfitItem Equipped="0" Index="20" Location="Spare"/>
+
+		<OutfitItem Equipped="1" Index="14" Location="Left Hand"/>
+
+		<OutfitItem Equipped="1" Index="17" Location="2 Handed"/>
+
+		<OutfitItem Equipped="1" Index="6" Location="Legs"/>
+
+		<OutfitItem Equipped="1" Index="26" Location="Left Ring"/>
+
+		<OutfitItem Equipped="1" Index="30" Location="Mythical"/>
+
+	</Outfit>
+</SCTemplate>

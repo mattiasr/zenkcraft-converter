@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCTemplate>
+	<Name>Drewggi</Name>
+	<Realm>Midgard</Realm>
+	<Class>Hunter</Class>
+	<Race>Valkyn</Race>
+	<Level>50</Level>
+	<RealmRank>1L1</RealmRank>
+	<ChampionLevel>0</ChampionLevel>
+	<CraftTime>0</CraftTime>
+	<Notes></Notes>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Chest</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item1</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>0</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Constitution</Effect>
+			<Amount>22</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Quickness</Effect>
+			<Amount>22</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Stat</Type>
+			<Effect>Dexterity</Effect>
+			<Amount>13</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Skill</Type>
+			<Effect>Spear</Effect>
+			<Amount>3</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Chest</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item1</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>1</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Arms</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item2</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>2</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Resist</Type>
+			<Effect>Matter</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Heat</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Body</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Skill</Type>
+			<Effect>Archery</Effect>
+			<Amount>3</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Arms</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item2</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>3</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Head</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item3</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>4</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Resist</Type>
+			<Effect>Slash</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Thrust</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Heat</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Stat</Type>
+			<Effect>Dexterity</Effect>
+			<Amount>16</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Head</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item3</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>5</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Legs</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item4</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>6</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Resist</Type>
+			<Effect>Matter</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Cold</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Energy</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Skill</Type>
+			<Effect>Stealth</Effect>
+			<Amount>4</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Legs</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item4</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>7</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Hands</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item5</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>8</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Resist</Type>
+			<Effect>Body</Effect>
+			<Amount>11</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Slash</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Energy</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Skill</Type>
+			<Effect>Stealth</Effect>
+			<Amount>4</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Hands</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item5</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>9</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Feet</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item6</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloth</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>10</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Quickness</Effect>
+			<Amount>25</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Cold</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Skill</Type>
+			<Effect>Spear</Effect>
+			<Amount>4</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Skill</Type>
+			<Effect>Stealth</Effect>
+			<Amount>3</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Feet</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item6</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>11</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Right Hand</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item7</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<TYPE>Axe</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>12</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Right Hand</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item7</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>13</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Left Hand</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item8</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<TYPE>Axe</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>14</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Left Hand</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item8</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>15</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>2 Handed</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item9</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Axe</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>16</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Skill</Type>
+			<Effect>Spear</Effect>
+			<Amount>4</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Cold</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Energy</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>2 Handed</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item9</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>17</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Ranged</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item10</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<TYPE>Bow</TYPE>
+		<SOURCE>Crafted</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>18</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Skill</Type>
+			<Effect>Archery</Effect>
+			<Amount>4</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Cold</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Energy</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Ranged</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item10</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>19</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>player</ActiveState>
+		<Location>Spare</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Crafted Item11</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>20</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Spare</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item11</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>21</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Neck</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>DF dia neckie</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Necklass</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>31</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Hits</Effect>
+			<Amount>48</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Body</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Energy</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Thrust</Effect>
+			<Amount>7</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Neck</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item12</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<TYPE>Necklass</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>22</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Cloak</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Grand Summoner's Silken Mantle</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloak</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>32</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Hits</Effect>
+			<Amount>48</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Resist</Type>
+			<Effect>Crush</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Slash</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Thrust</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Cloak</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item13</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<TYPE>Cloak</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>23</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Jewel</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Dragon Gem rog</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Jewelry</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>24</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Dexterity</Effect>
+			<Amount>19</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Constitution</Effect>
+			<Amount>21</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Skill</Type>
+			<Effect>Archery</Effect>
+			<Amount>4</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Stat</Type>
+			<Effect>Hits</Effect>
+			<Amount>28</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Belt</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Fortifying Girdle rog</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Belt</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>25</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Strength</Effect>
+			<Amount>19</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Dexterity</Effect>
+			<Amount>19</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Crush</Effect>
+			<Amount>5</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>4</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Left Ring</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Flame Wrought Ring</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Ring</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>33</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Dexterity</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Quickness</Effect>
+			<Amount>10</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>8</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Heat</Effect>
+			<Amount>8</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Left Ring</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item16</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<TYPE>Ring</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>26</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Right Ring</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Speedy Ring rog</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Ring</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>27</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Strength</Effect>
+			<Amount>22</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Constitution</Effect>
+			<Amount>24</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Crush</Effect>
+			<Amount>6</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Stat</Type>
+			<Effect>Hits</Effect>
+			<Amount>40</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Left Wrist</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Mighty Bracelet rog</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Wrist</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>28</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Strength</Effect>
+			<Amount>25</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Quickness</Effect>
+			<Amount>18</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Crush</Effect>
+			<Amount>6</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Stat</Type>
+			<Effect>Hits</Effect>
+			<Amount>48</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Right Wrist</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Bracer of Shattering</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<TYPE>Wrist</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>34</TemplateIndex>
+		<SLOT Number="0">
+			<Type>Stat</Type>
+			<Effect>Constitution</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="1">
+			<Type>Stat</Type>
+			<Effect>Strength</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="2">
+			<Type>Resist</Type>
+			<Effect>Matter</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+		<SLOT Number="3">
+			<Type>Resist</Type>
+			<Effect>Spirit</Effect>
+			<Amount>9</Amount>
+		</SLOT>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Right Wrist</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item19</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>0</Equipped>
+		<Level>51</Level>
+		<TYPE>Wrist</TYPE>
+		<SOURCE>Drop</SOURCE>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>29</TemplateIndex>
+	</SCItem>
+	<SCItem>
+		<ActiveState>drop</ActiveState>
+		<Location>Mythical</Location>
+		<Realm>Midgard</Realm>
+		<ItemName>Drop Item20</ItemName>
+		<ItemQuality>99</ItemQuality>
+		<Equipped>1</Equipped>
+		<Level>51</Level>
+		<DBSOURCE>kscraft</DBSOURCE>
+		<TemplateIndex>30</TemplateIndex>
+	</SCItem>
+	<Outfit Active="1" Name="Outfit1">
+		<OutfitItem Equipped="1" Index="28" Location="Left Wrist"/>
+
+		<OutfitItem Equipped="1" Index="10" Location="Feet"/>
+
+		<OutfitItem Equipped="1" Index="4" Location="Head"/>
+
+		<OutfitItem Equipped="1" Index="25" Location="Belt"/>
+
+		<OutfitItem Equipped="1" Index="31" Location="Neck"/>
+
+		<OutfitItem Equipped="0" Index="18" Location="Ranged"/>
+
+		<OutfitItem Equipped="1" Index="34" Location="Right Wrist"/>
+
+		<OutfitItem Equipped="1" Index="8" Location="Hands"/>
+
+		<OutfitItem Equipped="1" Index="24" Location="Jewel"/>
+
+		<OutfitItem Equipped="1" Index="2" Location="Arms"/>
+
+		<OutfitItem Equipped="1" Index="27" Location="Right Ring"/>
+
+		<OutfitItem Equipped="1" Index="32" Location="Cloak"/>
+
+		<OutfitItem Equipped="1" Index="0" Location="Chest"/>
+
+		<OutfitItem Equipped="0" Index="12" Location="Right Hand"/>
+
+		<OutfitItem Equipped="0" Index="20" Location="Spare"/>
+
+		<OutfitItem Equipped="0" Index="14" Location="Left Hand"/>
+
+		<OutfitItem Equipped="1" Index="16" Location="2 Handed"/>
+
+		<OutfitItem Equipped="1" Index="6" Location="Legs"/>
+
+		<OutfitItem Equipped="1" Index="33" Location="Left Ring"/>
+
+		<OutfitItem Equipped="1" Index="30" Location="Mythical"/>
+
+	</Outfit>
+</SCTemplate>
