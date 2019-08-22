@@ -78,6 +78,8 @@ def parse(template_file):
     for dump_item in dump['SCItem']:
         if dump_item['Location'] == 'Mythical':
             continue
+        if dump_item['Location'] == 'Spare':
+            continue
         item = Item()
         item.name = dump_item['ItemName']
         item.level = dump_item['Level']
