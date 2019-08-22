@@ -5,6 +5,17 @@ from Character import Character
 from Gem import Gem
 
 
+def fix_gem_stats(gem_stats):
+    if gem_stats.bonus_attribute == 'Hits':
+        gem_stats.bonus_type = 'H.P.'
+        gem_stats.bonus_attribute = 'Hit Points'
+
+    if gem_stats.bonus_attribute == 'Power':
+        gem_stats.bonus_type = 'Power'
+
+    if gem_stats.bonus_attribute == 'Archery':
+        gem_stats.bonus_attribute = 'Composite Bow'
+
 
 class Item:
     def __init__(self):
@@ -38,17 +49,6 @@ class Item:
             self.location = 'R. Wrist'
         if self.origin == 'player':
             self.origin = 'crafted'
-
-        for gem in self.stats:
-            if gem.bonus_type == 'Hits':
-                gem.bonus_type = 'H.P.'
-                gem.bonus_attribute = 'Hit Points'
-
-            if gem.bonus_type == 'Power':
-                gem.bonus_attribute = 'Power'
-
-            if gem.bonus_attribute == 'All Magic':
-                gem.bonus_attribute = 'All Magic Skills'
 
     def add_location(self, location):
         self.location = location
@@ -92,6 +92,7 @@ def parse(template_file):
                 gem.bonus_type = gem_stat['Type']
                 gem.bonus_attribute = gem_stat['Effect']
                 gem.bonus_amount = gem_stat['Amount']
+                fix_gem_stats(gem)
                 item.stats.append(gem)
         if len(item.stats) == 0:
             item.stats.append(Gem())
