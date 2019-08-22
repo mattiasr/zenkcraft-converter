@@ -110,7 +110,7 @@ def main(file, write_template=True):
             elif parsed_item.location == "Ranged":
                 default_selected_weapon_type = parsed_item.location
         else:
-            item_enabled.text = 'false'
+            item_enabled.text = 'true'
             item_at_item_include = SubElement(item, 'AT_itemIncluded')
             item_at_item_include.text = 'false'
 
